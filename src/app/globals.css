@@ -19,10 +19,10 @@
 }
 
 .bg-orange{
-  background-color:#E37826
+  background-color: #e4002b
 }
 .color-orange{
-  color:#E37826
+  color: #e4002b
 }
 *{
   margin: 0;
@@ -60,11 +60,11 @@
     color: #e4002b;
   }
   .text-accent-orange{
-    color: #E37826;
+    color:  #e4002b;
   }
   .bg-accent-orange{
-    background: #E37826;
-    background-color:#E37826 ;
+    background:  #e4002b;
+    background-color: #e4002b ;
   
   }
   .w-30{
@@ -100,7 +100,7 @@
     border-radius: 100px 100px 100px 100px;
     padding: 5px 10px 5px 10px;
     }
-    .bg-cateringCata{background-color: #e3782614;
+    .bg-cateringCata{background-color:  #e4002b14;
     
     }
 
@@ -108,7 +108,7 @@
       border-bottom-width: 1px;
       margin-left: 10px;
       flex-grow: 1;
-      color:#E37826;
+      color: #e4002b;
 
       margin-right: 10px;}
 
@@ -160,7 +160,7 @@
   }
   .bg-OfMain{
     min-height: calc(100vh - 10rem);
-    background-image: url(/_next/static/media/mainbg.caae0d6b.jpg);
+    background-image: url('../assets/Images/mainPage/mainbg.jpg');
   
     position: absolute;
     width: 100%;
