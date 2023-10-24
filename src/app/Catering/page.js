@@ -80,7 +80,7 @@ function page() {
         <div className='col-lg-6 col-md-6 col-sm-12'>
 <div className='CateringTop mb-4'>
 <div className='d-flex justify-content-start align-items-center'>
-           <p className='IndieFont m-0'>Let us bring the taste of Greece to your next event</p>
+           <p className='IndieFont m-0 fw-bold'>Let us bring the taste of Greece to your next event</p>
 
             </div> 
 </div>

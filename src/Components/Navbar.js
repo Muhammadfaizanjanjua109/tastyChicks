@@ -48,7 +48,7 @@ function Navbar() {
     </div>
 
 <div className='d-flex justify-content-center'>
-<button className='btn btn-primary me-2' >Loyality Program</button>
+<button className='btn btn-primary me-2 bg-darkBlue' >Loyality Program</button>
     <button className='btn btn-secondary text-light'>Order Online</button>
  
 </div>

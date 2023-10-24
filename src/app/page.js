@@ -46,7 +46,7 @@ export default function Home() {
 <div className='col-lg-6 col-md-6 col-sm-12'>
 <div className='CateringTop mb-4 fontsize19 ' style={{margin:'auto'}}>
 <div className='d-flex justify-content-center align-items-center'>
-           <p className='IndieFont m-0'>Let us bring the taste of Greece to your next event</p>
+           <p className='IndieFont m-0 fw-bold'>Let us bring the taste of Greece to your next event</p>
 
             </div> 
 </div>
@@ -139,7 +139,7 @@ export default function Home() {
 <div className=' d-flex justify-content-center align-items-center flex-column mt-5'>
 
   <h2 className='text-light fw-bolder'>CATERING SERVICES</h2>
-  <p className='IndieFont text-accent-orange'>Let us bring the taste of Greece to your next event</p>
+  <p className='IndieFont text-accent-orange fw-bold'>Let us bring the taste of Greece to your next event</p>
 
 <p className='tommy text-light'>Our catering services are designed to provide you with an authentic Greek culinary experience. From souvlakia to Greek salads, our menu features a variety of dishes that are sure to impress your guests.</p>
 

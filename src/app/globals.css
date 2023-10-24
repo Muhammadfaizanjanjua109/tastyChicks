@@ -87,6 +87,19 @@
 .headingBg{
   background-color: #eef9ff;
 }
+
+.btn-primary{
+  -bs-btn-color: #fff;
+background-color: #e4002b !important;
+border: #e4002b  !important;
+
+
+}
+.btn-primary:hover{
+  color: #fff;
+  background-color: #e4002b  !important;
+  border-color: #e4002b  !important;
+}
     .CateringTop{
       font-family: "Indie Flower", Sans-serif;
     font-size: 14px;
