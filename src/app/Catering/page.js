@@ -7,8 +7,6 @@ import authentic from '../../assets/Images/authentic.svg'
 import hamburgerorange from '../../assets/Images/hamburger-orange.svg'
 import confettiorange from '../../assets/Images/confetti-orange.svg'
 import clocheorange from '../../assets/Images/cloche-orange.svg'
-
-
 import Souvlakia_01 from '../../assets/Images/foodImages/Souvlakia_01.jpg'
 import Chips_01 from '../../assets/Images/foodImages/Chips_01.jpg';
 import ClubSandwhiches_01 from '../../assets/Images/foodImages/Club-Sandwhiches_01.jpg'
@@ -117,7 +115,7 @@ function page() {
             <div className='col-lg-3 col-md-3 col-sm-12'>
 <div className='d-flex flex-column align-items-center'>
     <Image src={hamburgerorange} alt='authentic' width={50} />
-    <p style={{fontWeight:'400'}}>Customisable menu to fit your event's needs and preferences</p>
+    <p style={{fontWeight:'400'}}>Customisable menu to fit your event&apos;s needs and preferences</p>
 </div>
             </div>
             <div className='col-lg-3 col-md-3 col-sm-12'>

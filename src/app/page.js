@@ -88,8 +88,8 @@ export default function Home() {
 <div class="card-group">
 
 
-{data.map((index)=>(
-   <div class="card me-4">
+{data.map((index , li)=>(
+   <div key={li} class="card me-4">
    <Image src={ValueRange} class="card-img-top" alt="..." />
    <div class="card-body">
      <h5 class="card-title fw-bold tommy">{index.name}</h5>
