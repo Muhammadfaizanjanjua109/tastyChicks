@@ -10,6 +10,7 @@ import hamburgerorange from '../assets/Images/hamburger-orange.svg'
 import confettiorange from '../assets/Images/confetti-orange.svg'
 import clocheorange from '../assets/Images/cloche-orange.svg'
 import blackbgMeatImage from  '../assets/Images/mainPage/blackbgMeatImage.jpg'
+import Link from 'next/link'
 export default function Home() {
 
   const data=[{
@@ -104,9 +105,9 @@ export default function Home() {
 </div>
 <div className='mt-4 d-flex justify-content-center align-items-center mb-4'>
 
-  <button className='btn btn-primary '>
-  BROWSE FULL MENU
-  </button>
+  
+<Link href='/Menu'> <button className='btn btn-primary ' >BROWSE FULL MENU</button> </Link>
+
 </div>
 
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/Images/logo.png'
 import Image from 'next/image'
+import Link from 'next/link'
 function Footer() {
   return (
     <div className="container  text-light">
@@ -20,25 +21,17 @@ function Footer() {
       <div className="col mb-3">
         <h5>Our Food</h5>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Menu</a></li>
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Catering</a></li>
+          <li className="nav-item mb-2"><Link href="/Menu" className="nav-link p-0 text-light">Menu</Link></li>
+          <li className="nav-item mb-2"><Link href="/Catering" className="nav-link p-0 text-light">Catering</Link></li>
         </ul>
       </div>
   
-      <div className="col mb-3">
-        <h5>Work With Us</h5>
-        <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Franchising</a></li>
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Careers</a></li>
-
-        </ul>
-      </div>
+     
   
       <div className="col mb-3">
         <h5>Company</h5>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">About Us</a></li>
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Contact Us</a></li>
+          <li className="nav-item mb-2"><Link href="/About" className="nav-link p-0 text-light">About Us</Link></li>
         </ul>
       </div>
     </footer>

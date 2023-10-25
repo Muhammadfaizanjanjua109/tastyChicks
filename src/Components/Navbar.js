@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import logo from '../assets/Images/logo.png'
+import Link from 'next/link'
 function Navbar() {
   return (
     <div>
@@ -13,37 +14,29 @@ function Navbar() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
       <ul className="navbar-nav">
-      <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle p-2 m-2" style={{color:'#2e297f'}} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Our Food
-          </a>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item p-2 m-2" href="/Menu">Menu</a></li>
-            <li><a className="dropdown-item p-2 m-2" href="/Catering">Catering</a></li>
-          </ul>
-        </li>
+    
         <li className="nav-item">
-          <a className="nav-link p-2 m-2" href="#" style={{color:'#2e297f'}}>Find Us</a>
+          <Link className="nav-link p-2 m-2" href="/" style={{color:'#2e297f'}}>Home</Link>
         </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle p-2 m-2" style={{color:'#2e297f'}} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           WORK WITH US
-          </a>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item p-2 m-2" href="#">Franchising</a></li>
-            <li><a className="dropdown-item p-2 m-2" href="#">Careers</a></li>
-            <li><a className="dropdown-item p-2 m-2" href="#">About Us</a></li>
-          </ul>
+
+
+        <li className="nav-item">
+          <Link className="nav-link p-2 m-2" href="/Menu" style={{color:'#2e297f'}}>Menu</Link>
         </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle p-2 m-2" style={{color:'#2e297f'}} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Community
-          </a>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item p-2 m-2" href="#">Blog</a></li>
-         
-          </ul>
+
+
+
+        <li className="nav-item">
+          <Link className="nav-link p-2 m-2" href="/Catering" style={{color:'#2e297f'}}>Catering</Link>
         </li>
+
+
+        <li className="nav-item">
+          <Link className="nav-link p-2 m-2" href="/About" style={{color:'#2e297f'}}>About Us</Link>
+        </li>
+
+
+     
       </ul>
     </div>
 
