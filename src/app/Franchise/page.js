@@ -206,10 +206,14 @@ function page() {
 
         <div className='mt-4 container'>
           <div className='row'>
-            <div className='d-flex '>
-              <Image src={FranchiseEnquiryImage1} alt='FranchiseEnquiryImage1' />
-              <div className='d-flex flex-column ps-4 pe-4'>
-                <div className='headingBg p-4'>
+            <div className='row '>
+              <div className='col-lg-6 col-md-6 col-sm-12'>
+              <Image src={FranchiseEnquiryImage1} className='w-100 h-100' alt='FranchiseEnquiryImage1' />
+
+              </div>
+              <div className='col-lg-6 col-md-6 col-sm-12  '>
+             <div className='flex-column ps-4 pe-4 d-flex'>
+             <div className='headingBg p-4'>
                   <h5 className='fw-bold'>What qualities do you look for in a Franchisee?</h5>
                   <p>We are looking for passionate and hard-working franchisees. A successful franchisee understands the importance of customer service and must be willing to be hands-on and most importantly, should be a great leader to their team.</p>
                 </div>
@@ -225,6 +229,7 @@ function page() {
                   <h5 className='fw-bold'>What qualities do you look for in a Franchisee?</h5>
                   <p>We are looking for passionate and hard-working franchisees. A successful franchisee understands the importance of customer service and must be willing to be hands-on and most importantly, should be a great leader to their team.</p>
                 </div>
+             </div>
               </div>
 
             </div>

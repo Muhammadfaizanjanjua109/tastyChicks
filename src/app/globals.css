@@ -327,3 +327,15 @@ border: #e4002b  !important;
   padding: 20px;
   text-align: center;
 }
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+
+
+  .about .call-us{
+    display: none;
+  }
+ }
+
+

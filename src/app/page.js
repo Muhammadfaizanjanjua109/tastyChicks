@@ -81,7 +81,7 @@ export default function Home() {
  <p className='text-center'><a className='text-darkblue '>Learn More</a></p></div>
   </div>
   <div className='col-lg-6 col-md-6 col-sm-12 p-0'>
-<Image src={ValueRange}  alt='ValueRange' height={'auto'} />
+<Image src={ValueRange}  alt='ValueRange' className='w-100 h-100' />
   </div>
 </div>
 </div>
@@ -91,7 +91,7 @@ export default function Home() {
 
 {data.map((index , li)=>(
    <div key={li} class="card me-4">
-   <Image src={ValueRange} class="card-img-top" alt="..." />
+   <Image src={ValueRange} class="card-img-top" className='w-100 h-100' alt="..." />
    <div class="card-body">
      <h5 class="card-title fw-bold tommy">{index.name}</h5>
      <p class="card-text tommy">{index.details}</p>
@@ -118,7 +118,7 @@ export default function Home() {
 <div className='row  '> 
 
 <div className='col-lg-6 col-md-6 col-sm-12 p-0'>
-<Image src={ValueRange}  alt='ValueRange' height={'auto'}  className='image ValueRangemian' />
+<Image src={ValueRange}  alt='ValueRange' height={'auto'}  className='image ValueRangemian w-100 h-100' />
   </div>
   <div className='col-lg-6 col-md-6 col-sm-12 p-3 bg-darkBlue d-flex maindiv ValueRangemian'>
 <div className='d-flex justify-content-center align-items-center flex-column'>   
@@ -147,7 +147,7 @@ export default function Home() {
 
 <div className='row'>
   <div className='col-lg-6 col-md-6 col-sm-12'>
-  <Image src={authentic} alt='authentic' width={50} />
+  <Image src={authentic} alt='authentic' width={50}  />
 <p className='text-light'>Authentic Greek food made with fresh, high-quality ingredients</p>
 
   </div>
@@ -177,7 +177,7 @@ export default function Home() {
     </div>
     <div className='col-lg-6 col-md-6 col-sm-12 p-5 border-radius'>
 
-      <Image src={blackbgMeatImage} height={550} alt=' asd' className='borderRadiusImage' />
+      <Image src={blackbgMeatImage} height={550} alt=' asd' className='borderRadiusImage w-100 h-100' />
     </div>
     </div>
 </div>

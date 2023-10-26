@@ -76,7 +76,7 @@ const cardsData = [
     <div className='container-fluid d-flex  flex-wrap justify-content-center '>
 {cardsData.map((index,li)=>{
   return ( < > <div key={li}  className="card me-2 mb-4 shadowCard" style={{width:'22rem'}}>
-  <Image src={index.image}  className="card-img-top" alt="..." />
+  <Image src={index.image}  className="card-img-top w-100 h-100" alt="..." />
   <div className="card-body">
     <h4 className="card-title fw-bold">{index.name}</h4>
     <p>{index.price}</p>
