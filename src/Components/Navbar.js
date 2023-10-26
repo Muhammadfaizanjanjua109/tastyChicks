@@ -35,6 +35,10 @@ function Navbar() {
           <Link className="nav-link p-2 m-2" href="/About" style={{color:'#2e297f'}}>About Us</Link>
         </li>
 
+        <li className="nav-item">
+          <Link className="nav-link p-2 m-2" href="/Franchise" style={{color:'#2e297f'}}>Franchise</Link>
+        </li>
+
 
      
       </ul>

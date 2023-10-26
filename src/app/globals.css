@@ -10,6 +10,15 @@
 }
 
 
+
+@font-face {
+  font-family: 'Quicksand-Medium';
+  src: url('../assets/fonts/Quicksand-Medium.woff') format('woff2'),
+       url('../assets/fonts/Quicksand-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'Indie Flower';
   src: url('../assets/fonts/IndieFlower-Regular.woff') format('woff2'),
@@ -23,6 +32,9 @@
 }
 .color-orange{
   color: #e4002b
+}
+.QuicksandMedium{
+  font-family: 'Quicksand-Medium';
 }
 *{
   margin: 0;

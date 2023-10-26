@@ -58,7 +58,7 @@ function page() {
    
 
    <div className='chooseDiliveryMainDiv d-flex justify-content-center align-items-center bg-darkBlue mt-4 '>
-    <div className=' w-30 p-4 text-light'>
+    <div className=' w-30 p-4 text-light d-flex justify-content-center align-items-center flex-column'>
   
     <h1 className='fw-bolder'>ORDER YOUR GREEK FAVOURITES NOW</h1>
 <div className='d-flex mt-4'>

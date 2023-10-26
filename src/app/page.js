@@ -43,7 +43,7 @@ export default function Home() {
 
 <div className='d-flex justify-content-center position-absolute maincontainer  p-4 w-100'>
 
-<div className='row'>
+<div className='row m-0'>
 <div className='col-lg-6 col-md-6 col-sm-12'>
 <div className='CateringTop mb-4 fontsize19 ' style={{margin:'auto'}}>
 <div className='d-flex justify-content-center align-items-center'>
@@ -186,7 +186,7 @@ export default function Home() {
 
 
 <div className='chooseDiliveryMainDiv d-flex justify-content-center align-items-center bg-darkBlue '>
-    <div className=' w-30 p-4 text-light'>
+    <div className=' w-30 p-4 text-light d-flex justify-content-center align-items-center flex-column'>
   
     <h1 className='fw-bolder'>ORDER YOUR GREEK FAVOURITES NOW</h1>
 <div className='d-flex mt-4'>

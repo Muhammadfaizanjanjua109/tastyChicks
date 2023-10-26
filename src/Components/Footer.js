@@ -32,6 +32,7 @@ function Footer() {
         <h5>Company</h5>
         <ul className="nav flex-column">
           <li className="nav-item mb-2"><Link href="/About" className="nav-link p-0 text-light">About Us</Link></li>
+          <li className="nav-item mb-2"><Link href="/Franchise" className="nav-link p-0 text-light">Franchise</Link></li>
         </ul>
       </div>
     </footer>
