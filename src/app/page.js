@@ -300,7 +300,7 @@ export default function Home() {
                     
                     <h5 className="mb-0">Bruce Hardy</h5>
                     <span>Tasty Chicks Never Disappoints</span>
-                    <p>I recently dined at Tasty Chicks, and I must say it was a delightful experience. The ambiance was cozy, and the staff was attentive and friendly. The menu offered a variety of options, from mouthwatering chicken dishes to vegetarian choices. I ordered their signature crispy fried chicken, and it was cooked to perfection, crispy on the outside and tender on the inside. The portions were generous, and the food tasted delicious. I also appreciated their quick service, and the prices were reasonable. The only reason I'm not giving it five stars is that I wish they had more dessert options on the menu. Overall, a great place for a casual dining experience.</p>
+                    <p>I recently dined at Tasty Chicks &lsquo; and I must say it was a delightful experience. The ambiance was cozy , and the staff was attentive and friendly. The menu offered a variety of options, from mouthwatering chicken dishes to vegetarian choices. I ordered their signature crispy fried chicken, and it was cooked to perfection, crispy on the outside and tender on the inside. The portions were generous, and the food tasted delicious. I also appreciated their quick service, and the prices were reasonable. The only reason I'm not giving it five stars is that I wish they had more dessert options on the menu. Overall, a great place for a casual dining experience.</p>
                     
                 </div>
                 
@@ -329,8 +329,7 @@ export default function Home() {
                     
                     <h5 className="mb-0">Mark Smith</h5>
                     <span>Family-Friendly Gem</span>
-                    <p>Tasty Chicks is a gem for families looking for a delightful dining experience. The atmosphere is warm and inviting, making it an ideal spot for family outings. The kid's menu has a good selection, and the little ones love the chicken tenders. As a parent, I appreciate the cleanliness and child-friendly facilities. The staff is courteous and quick to serve, which is a big plus when dining with kids. The food is consistently good, and I've never been disappointed with my orders. Tasty Chicks is a great place to enjoy quality time with your family while savoring some tasty chicken dishes.</p>
-                    
+                    <p>Tasty Chicks is a gem for families looking for a delightful dining experience. The atmosphere is warm and inviting &rsquo; making it an ideal spot for family outings. The kid&rsquo;s menu has a good selection &rsquo; and the little ones love the chicken tenders. As a parent, I appreciate the cleanliness and child-friendly facilities. The staff is courteous and quick to serve, which is a big plus when dining with kids. The food is consistently good, and I've never been disappointed with my orders. Tasty Chicks is a great place to enjoy quality time with your family while savoring some tasty chicken dishes.</p>                    
                 </div>
                 
                 <div className="ratings">
