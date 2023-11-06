@@ -3,6 +3,7 @@ import './globals.css'
 import TopPromotion from '@/Components/TopPromotion'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Navbar from '@/Components/Navbar'
+
 import ImportBsJS from '@/Components/ImportBsJS'
 // import dynamic from 'next/dynamic';
 const inter = Inter({ subsets: ['latin'] })
@@ -18,7 +19,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
       <body className={inter.className}>
         <ImportBsJS />
       <TopPromotion />

@@ -107,6 +107,23 @@ border: #e4002b  !important;
 
 
 }
+
+.user-content p{
+  margin-top:5px;
+  font-size:12px;
+}
+
+
+.ratings i{
+  color:#e4002b;
+}
+.cursorPointer{
+  cursor: pointer;
+}
+.diliverybikes{
+  background: wheat;
+  border-radius: 10px;
+}
 .btn-primary:hover{
   color: #fff;
   background-color: #e4002b  !important;

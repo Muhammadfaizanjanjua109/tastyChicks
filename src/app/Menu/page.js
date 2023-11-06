@@ -84,30 +84,19 @@ const cardsData = [
   </div>
 </div></>)
 })}
-   
-
-
-
 
     </div>
    </div>
-
-
-
-
-
    <div className='chooseDiliveryMainDiv d-flex justify-content-center align-items-center bg-darkBlue'>
     <div className=' w-30 p-4 text-light d-flex justify-content-center align-items-center flex-column'>
   
     <h1 className='fw-bolder'>ORDER YOUR GREEK FAVOURITES NOW</h1>
 <div className='d-flex mt-4'>
-  ِ<div className='d-flex flex-column me-5'>
+  ِ<div className='d-flex flex-column me-5 diliverybikes'>
 <Image src={motorcycle} alt='motorcycle'  width={100} />
     <button className='btn btn-light text-accent-orange  mt-2'>Dilivery</button>
   </div>
-
-
-  ِ<div className='d-flex flex-column e-5'>
+  ِ<div className='d-flex flex-column e-5 diliverybikes'>
 <Image src={waiter} alt='waiter' width={100} />
     <button className='btn btn-light text-accent-orange mt-2'>Pick Up</button>
   </div>
@@ -115,15 +104,9 @@ const cardsData = [
 </div>
     </div>
    </div>
-
-
-
-
 <div className='container-fluid footerbg m-0'>
 <Footer />
-
 </div>
-
     </div>
   )
 }

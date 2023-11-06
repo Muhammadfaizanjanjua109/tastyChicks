@@ -123,12 +123,12 @@ function page() {
           {WhyOwn.map((index, li) => {
             return (
               <>
-                <div className='col-lg-4 p-2'>       <div class="card" key={li}>
+                <div className='col-lg-4 p-2'>       <div className="card" key={li}>
                   <Image src={index?.image} alt='OurBusinessImage' className='card-img-top' />
 
-                  <div class="card-body">
-                    <h5 class="card-title">{index?.Cardtitle}</h5>
-                    <p class="card-text">{index?.cardText}</p>
+                  <div className="card-body">
+                    <h5 className="card-title">{index?.Cardtitle}</h5>
+                    <p className="card-text">{index?.cardText}</p>
                   </div>
                 </div></div>
 
