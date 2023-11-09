@@ -11,7 +11,7 @@ const slides = images.map(({ original, width, height }) => ({
     width,
     height,
 }));
-function page() {
+function Memories() {
 
     const [formData, setFormData] = useState({
         name: '',
@@ -156,4 +156,4 @@ function page() {
     )
 }
 
-export default page
+export default Memories

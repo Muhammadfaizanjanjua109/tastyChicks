@@ -1,4 +1,4 @@
-import { Inter } from 'next/font/google'
+// import { Inter } from 'next/font/google'
 import './globals.css'
 import TopPromotion from '@/Components/TopPromotion'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
@@ -9,7 +9,7 @@ import Head from 'next/head'
 // import { Head } from 'next/document'
 // import Head from 'next/head'
 // import dynamic from 'next/dynamic';
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
     />
 </head>
 
-      <body className={inter.className}>
+      <body >
         <ImportBsJS />
       <TopPromotion />
       <Navbar />
