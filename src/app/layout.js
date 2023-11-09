@@ -6,6 +6,8 @@ import Navbar from '@/Components/Navbar'
 
 import ImportBsJS from '@/Components/ImportBsJS'
 import Head from 'next/head'
+// import { Head } from 'next/document'
+// import Head from 'next/head'
 // import dynamic from 'next/dynamic';
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,12 +23,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
  
-<Head>
+<head>
 <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
-</Head>
+</head>
 
       <body className={inter.className}>
         <ImportBsJS />

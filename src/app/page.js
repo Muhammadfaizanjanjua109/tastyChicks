@@ -52,7 +52,7 @@ export default function Home() {
       <div>
 
 
-        <div className="modal modal-dialog-centered" id="staticBackdropLive" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLiveLabel" aria-modal="true" role="dialog" >
+        <div className="modal modal-dialog-centered" id="staticBackdropLive" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLiveLabel" aria-modal="true" role="dialog" >
           <div className="modal-dialog   modal-lg bg-primary text-light">
             <div className="modal-content  bg-dark text-light">
 
