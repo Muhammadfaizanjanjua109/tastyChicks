@@ -3,7 +3,7 @@ import './globals.css'
 import TopPromotion from '@/Components/TopPromotion'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Navbar from '@/Components/Navbar'
-
+import "yet-another-react-lightbox/styles.css";
 import ImportBsJS from '@/Components/ImportBsJS'
 import Head from 'next/head'
 // import { Head } from 'next/document'

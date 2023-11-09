@@ -38,6 +38,9 @@ function Navbar() {
         <li className="nav-item">
           <Link className="nav-link p-2 m-2" href="/Franchise" style={{color:'#2e297f'}}>Franchise</Link>
         </li>
+        <li className="nav-item">
+          <Link className="nav-link p-2 m-2" href="/Memories" style={{color:'#2e297f'}}>Memories</Link>
+        </li>
 
 
      
