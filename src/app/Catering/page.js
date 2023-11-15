@@ -3,10 +3,11 @@ import Navbar from '@/Components/Navbar'
 import Image from 'next/image'
 import React from 'react'
 import cateringImage from '../../assets/Images/CateringImage.jpg'
-import authentic from '../../assets/Images/authentic.svg'
-import hamburgerorange from '../../assets/Images/hamburger-orange.svg'
-import confettiorange from '../../assets/Images/confetti-orange.svg'
+import authentic from '../../assets/Images/authentic.png'
+import hamburgerorange from '../../assets/Images/hamburger-orange.png'
+import confettiorange from '../../assets/Images/confetti-orange.png'
 import clocheorange from '../../assets/Images/cloche-orange.svg'
+import wings from '../../assets/Images/wings.png'
 import Souvlakia_01 from '../../assets/Images/foodImages/Souvlakia_01.jpg'
 import Chips_01 from '../../assets/Images/foodImages/Chips_01.jpg';
 import ClubSandwhiches_01 from '../../assets/Images/foodImages/Club-Sandwhiches_01.jpg'
@@ -122,7 +123,7 @@ function page() {
                 <p style={{ fontWeight: '400' }}>Customisable menu to fit your event&apos;s needs and preferences</p>
               </div>
             </div>
-            <div className='col-lg-3 col-md-3 col-sm-12'>
+            <div className='col-lg-3 col-md-3 col-sm-12 mt-3'>
               <div className='d-flex flex-column align-items-center'>
                 <Image src={confettiorange} alt='authentic' width={50} />
                 <p style={{ fontWeight: '400' }}>Professional catering team that will take care of delivery, setup, and more</p>
@@ -130,7 +131,7 @@ function page() {
             </div>
             <div className='col-lg-3 col-md-3 col-sm-12'>
               <div className='d-flex flex-column align-items-center'>
-                <Image src={clocheorange} alt='authentic' width={50} />
+                <Image src={wings} alt='authentic' width={50} />
                 <p style={{ fontWeight: '400' }}>Perfect for a variety of events, from weddings and corporate events to private parties</p>
               </div>
             </div>

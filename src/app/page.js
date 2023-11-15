@@ -6,9 +6,10 @@ import ValueRange from '../assets/Images/mainPage/Value-Range.jpg'
 
 import motorcycle from '../assets/Images/motorcycle.png'
 import waiter from '../assets/Images/waiter.png'
-import authentic from '../assets/Images/authentic.svg'
-import hamburgerorange from '../assets/Images/hamburger-orange.svg'
-import confettiorange from '../assets/Images/confetti-orange.svg'
+import authentic from '../assets/Images/authentic.png'
+import hamburgerorange from '../assets/Images/hamburger-orange.png'
+import confettiorange from '../assets/Images/confetti-orange.png'
+import wings from "../assets/Images/wings.png"
 import clocheorange from '../assets/Images/cloche-orange.svg'
 import blackbgMeatImage from '../assets/Images/mainPage/blackbgMeatImage.jpg'
 import SouvlakiPopUp from '../assets/Images/mainPage/SouvlakiPopUp.jpg'
@@ -223,7 +224,7 @@ export default function Home() {
                   </div>
 
                   <div className='col-lg-6 col-md-6 col-sm-12'>
-                    <Image src={authentic} alt='authentic' width={50} />
+                    <Image src={wings} alt='authentic' width={50} />
                     <p className='text-light'>Authentic Greek food made with fresh, high-quality ingredients</p>
 
                   </div>
