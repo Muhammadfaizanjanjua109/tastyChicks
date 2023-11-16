@@ -341,7 +341,10 @@ return(
 </div>
 </div>
 
+<div className='container-fluid footerbg m-0 mt-5'>
+          <Footer />
 
+        </div>
 </>
 )
 }
