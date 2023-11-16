@@ -1,4 +1,5 @@
 'use client'
+import Footer from '@/Components/Footer';
 import { useState } from 'react';
 import { Gallery } from 'react-grid-gallery'
 import Lightbox from "yet-another-react-lightbox";
@@ -339,6 +340,8 @@ return(
 />
 </div>
 </div>
+
+
 </>
 )
 }

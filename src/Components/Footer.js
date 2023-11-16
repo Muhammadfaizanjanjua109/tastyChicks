@@ -14,9 +14,7 @@ function Footer() {
         <p className="text-light">© 2022</p>
       </div>
   
-      <div className="col mb-3">
-  
-      </div>
+   
   
       <div className="col mb-3">
         <h5>Our Food</h5>
@@ -27,12 +25,22 @@ function Footer() {
       </div>
   
      
-  
+    
       <div className="col mb-3">
         <h5>Company</h5>
         <ul className="nav flex-column">
           <li className="nav-item mb-2"><Link href="/About" className="nav-link p-0 text-light">About Us</Link></li>
           <li className="nav-item mb-2"><Link href="/Franchise" className="nav-link p-0 text-light">Franchise</Link></li>
+        </ul>
+      </div>
+
+      <div className="col mb-3">
+      <h5>We are Social</h5>
+        <ul className="nav flex-column">
+          <li className="nav-item mb-2"><Link href="https://www.facebook.com/ColorsCreations441?mibextid=LQQJ4d" className="nav-link p-0 text-light"><i className="fa-brands fa-facebook-f text-primary"></i> Facebook</Link></li>
+          {/* <li className="nav-item mb-2"><Link href="/Menu" className="nav-link p-0 text-light">Youtube</Link></li> */}
+          <li className="nav-item mb-2"><Link href="https://instagram.com/chicks_on_charcoal?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr" className="nav-link p-0 text-light"><i className="fa-brands fa-instagram text-danger"></i> Instagram</Link></li>
+          <li className="nav-item mb-2"><Link href="https://www.tiktok.com/@tastychicksoncharcoal?_t=8h3IlP9ZsGo&_r=1" className="nav-link p-0 text-light"><i className="fa-brands fa-tiktok text-light"></i> tiktok</Link></li>
         </ul>
       </div>
     </footer>
