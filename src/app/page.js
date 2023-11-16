@@ -165,7 +165,6 @@ export default function Home() {
                 <div className="card-body">
                   <h5 className="card-title fw-bold tommy">{index.name}</h5>
                   <p className="card-text tommy">{index.details}</p>
-                  <p className="card-text text-darkblue text-center underline">Learn More</p>
                 </div>
               </div>
             ))}

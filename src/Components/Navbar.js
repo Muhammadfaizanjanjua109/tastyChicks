@@ -49,7 +49,7 @@ function Navbar() {
 
 <div className='d-flex justify-content-center'>
 <button className='btn btn-primary me-2 bg-darkBlue' >Loyality Program</button>
-    <button className='btn btn-secondary text-light'>Order Online</button>
+<Link href={'https://order.online/store/tasty-chicks-on-charcoal-balwyn-25026797/?hideModal=true&pickup=true'}>    <button className='btn btn-secondary text-light'>Order Online</button></Link> 
  
 </div>
  </div>
