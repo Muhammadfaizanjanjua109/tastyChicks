@@ -2,6 +2,7 @@
 import Footer from '@/Components/Footer';
 import { useState } from 'react';
 import { Gallery } from 'react-grid-gallery'
+import { toast } from 'react-toastify';
 import Lightbox from "yet-another-react-lightbox";
 function Faizan(){
     const images= [
@@ -206,12 +207,14 @@ function Faizan(){
       const [formData, setFormData] = useState({
         name: '',
         email: '',
-        pictures: [],
+        description: '',
+        files: null,
     });
 
     const [errors, setErrors] = useState({
         name: '',
         email: '',
+        files: '',
     });
       const handleInputChange = (e) => {
         const { name, value } = e.target;
@@ -234,23 +237,55 @@ function Faizan(){
                 email: /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value) ? '' : 'Invalid email address',
             });
         }
+       
     };
     const handleFileChange = (e) => {
-        const { files } = e.target;
+        const files = e.target.files[0];
         setFormData({
             ...formData,
-            pictures: [...formData.pictures, ...files],
+            files:files
         });
+
+
+
     };
-    const handleSubmit = () => {
+    const handleSubmit =async () => {
         // Check for required fields
-        if (!formData.name || !formData.email || !formData.pictures.length) {
-            tost('All fields are required');
+        if (!formData.name || !formData.email || formData.files==null) {
+            toast.error('All fields are required');
             return;
         }
+        const formDataToSend = new FormData();
 
+        // Append individual fields to FormData
+        formDataToSend.append('name', formData.name);
+        formDataToSend.append('email', formData.email);
+        formDataToSend.append('description', formData.description);
+        formDataToSend.append('files', formData.files);
+    
         // Do something with the form data (e.g., log it)
-        console.log(formData);
+        
+        try {
+          const response = await fetch('/api/faizan', {
+            method: 'POST',
+            body: formDataToSend,
+          });
+    
+          if (response.ok) {
+            console.log('Data submitted successfully');
+            // Optionally reset form fields after successful submission
+            setFormData({
+              name: '',
+              email: '',
+              description: '',
+              files: null,
+            });
+          } else {
+            console.error('Failed to submit data');
+          }
+        } catch (error) {
+          console.error('Error occurred while submitting data:', error);
+        }
     };
     const [index, setIndex] = useState(-1);
 
@@ -296,7 +331,9 @@ return(
 
                     <div className="mb-3">
                         <label className="form-label">Upload Pictures<span className='text-danger'>*</span></label>
-                        <input type="file" multiple className="form-control" onChange={handleFileChange} />
+                        <input type="file" className="form-control" onChange={handleFileChange} />
+                        {errors.files && <div className="invalid-feedback">{errors.files}</div>}
+
                     </div>
 
                 </div>

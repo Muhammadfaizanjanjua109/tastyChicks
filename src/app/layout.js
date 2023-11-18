@@ -5,7 +5,9 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Navbar from '@/Components/Navbar'
 import "yet-another-react-lightbox/styles.css";
 import ImportBsJS from '@/Components/ImportBsJS'
+import 'react-toastify/dist/ReactToastify.min.css'
 import Head from 'next/head'
+import { ToastContainer } from 'react-toastify';
 // import { Head } from 'next/document'
 // import Head from 'next/head'
 // import dynamic from 'next/dynamic';
@@ -31,6 +33,12 @@ export default function RootLayout({ children }) {
 </head>
 
       <body >
+      <ToastContainer
+      data-testid="app-component"
+      position="top-right"
+      autoClose={5000}
+      draggable
+    />
         <ImportBsJS />
       <TopPromotion />
       <Navbar />
