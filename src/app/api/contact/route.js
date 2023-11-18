@@ -21,8 +21,8 @@ console.log(formData,'formData')
     // const transporter = nodemailer.createTransport({
     //     service: 'gmail',
     //     auth: {
-    //       user: 'muhammadfaizanjanjua109@gmail.com',
-    //       pass: 'Irfan109/)',
+    //       user: '',
+    //       pass: '',
           
     //     }
       
