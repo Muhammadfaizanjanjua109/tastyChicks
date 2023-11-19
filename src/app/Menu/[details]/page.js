@@ -44,7 +44,7 @@ let {details}=useParams()
             ]
         },
         {
-            name: 'SALADS  S/M/L',
+            name: 'HSP S/M/L',
             child: [
                 { name: 'Lamb S', price: '$13.90' },
                 { name: 'Lamb M', price: '$16.90' },
@@ -127,7 +127,7 @@ let {details}=useParams()
             ]
         },
         {
-            name: 'CHICKENS (Free range)',
+            name: 'CHICKENS PACKS',
             child: [
                 { name: '1/4 Chicken & Chips', price: '$10.50' },
                 { name: '1/4 Chicken & Salad', price: '$10.95' },
@@ -193,7 +193,7 @@ const selectedCategory = details; // Assuming `a.details` contains the selected 
                     </div>
                     <div className='col-lg-6 col-md-6 col-sm-12'>
                         <h2 className='fw-bold mb-3'>
-                            SOUVLAKIA</h2>
+                            {categoryDetails?.name}</h2>
 
                         <p>Experience the taste of Greece with our tender and flavorful Souvlakia! Made with marinated meat, fresh veggies, and aromatic herbs. Served with warm pita bread and your choice of sauce, they’re a satisfying and delicious meal for any time of day.</p>
 

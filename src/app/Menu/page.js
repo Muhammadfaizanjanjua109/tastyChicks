@@ -21,44 +21,54 @@ const cardsData = [
     price:'From only $9.90',
     image:Souvlakia_01
   },
+  {
+    name:'ROLLS',
+    price:'From only $9.90',
+    image:Souvlakia_01
+  },
 
   {
-    name:'Chips',
+    name:'DESSERTS',
     price:'From only $9.90',
     image:Chips_01
   },
   {
-    name:'Club Sanwhiches',
+    name:'HSP S/M/L',
     price:'From only $9.90',
     image:ClubSandwhiches_01
   },
   {
-    name:'Desserts',
+    name:'SALADS  S/M/L',
     price:'From only $9.90',
     image:Dessers
   },
   {
-    name:'Salads',
+    name:'BURGERS',
     price:'From only $9.90',
     image:Salads
   },
   {
-    name:'Skewers',
+    name:'Chips',
     price:'From only $9.90',
     image:Skewers_01
   },
   {
-    name:'Take Home Packs',
+    name:'CHICKENS (Free range)',
     price:'From only $9.90',
     image:TakeHomePacks
   },
   {
-    name:'Sides',
+    name:'CHICKENS PACKS',
     price:'From only $9.90',
     image:Sides_01
   },
   {
-    name:'Value Range',
+    name:'Appetizers',
+    price:'From only $9.90',
+    image:ValueRange_Image05
+  },
+  {
+    name:'Loaded Fries',
     price:'From only $9.90',
     image:ValueRange_Image05
   },
