@@ -9,33 +9,44 @@ import waiter from '../assets/Images/waiter.png'
 import authentic from '../assets/Images/authentic.svg'
 import hamburgerorange from '../assets/Images/hamburger-orange.svg'
 import confettiorange from '../assets/Images/confetti-orange.svg'
-import clocheorange from '../assets/Images/cloche-orange.svg'
 import blackbgMeatImage from '../assets/Images/mainPage/blackbgMeatImage.jpg'
 import SouvlakiPopUp from '../assets/Images/mainPage/SouvlakiPopUp.jpg'
+
+import chips from '../assets/Images/mainPage/chips.jpg'
+import apitizers from '../assets/Images/mainPage/apitizers.png'
+import chicken from '../assets/Images/mainPage/chicken.jpg'
+import burger from '../assets/Images/mainPage/burger.png'
 
 import Link from 'next/link'
 export default function Home() {
   const [modal, setModal] = useState(true)
   const [modalopenModalButton, setopenModalButton] = useState(true)
+  
+  
+  
   const data = [{
-    name: 'SOUVLAKIA',
-    details: 'Our juicy souvlakia are marinated in traditional Greek herbs and spices and cooked to perfection over charcoal on our rotisserie.'
-  },
+    name: 'BURGERS',
+    image:burger,
+    description:"Our burger selection offers a diverse range to satisfy every craving. Dive into the Aussie Burger, a savory delight featuring premium ingredients. Indulge in the flavorful Chicken Delight Burger or savor the exotic taste of the Don Burger",
+ },
 
   {
-    name: 'CLUB SANDWICHES',
-    details: 'Our hearty club sandwiches are made with pita and fresh ingredients such as our home-made tzatziki, tomato and more.'
+    name: 'Chips',
+    image:chips,    
+    description:"Indulge in our crispy and flavorful fries, a perfect side to complement your meal. Available in various sizes – from the snack-friendly 'Small' to the generously portioned 'Family' – our golden fries promise a delightful crunch with every bite. Treat yourself to the perfect accompaniment for your cravings.",
   },
 
 
   {
-    name: 'CHARGRILLED SKEWERS',
-    details: 'Our succulent skewers are made with tender cuts of meat and grilled over an open flame to seal in the juicy flavors and aromas.'
-  },
+    name: 'CHICKENS (Free range)',
+            image:chicken,
+            description:"Savor our tender and succulent chicken offerings, available in different portions to suit your appetite. Whether you prefer the hearty 'Whole Chicken,' the satisfying 'Half Chicken,' or the smaller 'Quarter Chicken,' our flavorful and perfectly cooked chicken options promise a delightful culinary experience. Taste the juicy tenderness in every bite.",
+           },
   {
-    name: 'SHARE PACKS',
-    details: 'Our generous share packs are perfect for sharing with friends and family, and come with an assortment of our most popular dishes.'
-  }
+    name: 'Appetizers',
+            image:apitizers,
+            description:"Savor our appetizing range of starters! Enjoy the crispy delight of our 'Cheesy Croquette' or try the savory 'Chicken Nuggets' available in sets of 6 or 12. Indulge in our vegetarian options such as 'Potato Cake' or relish the flavorful 'Roast Potato.' Dive into our delicious 'Sweet Chilli Tender' or the tantalizing 'Tasty Wing' for a burst of flavors that set the perfect tone for your meal.",
+          }
   ]
 
 
@@ -161,10 +172,10 @@ export default function Home() {
 
             {data.map((index, li) => (
               <div key={li} className="card me-4">
-                <Image src={ValueRange} className="card-img-top w-100 h-100" alt="..." />
+                <Image src={index?.image} style={{ borderRadius: ' 5px 5px 5px 5px'  ,maxHeight:'15rem' , maxWidth:'100%' }}  className="card-img-top  " alt="..." />
                 <div className="card-body">
                   <h5 className="card-title fw-bold tommy">{index.name}</h5>
-                  <p className="card-text tommy">{index.details}</p>
+                  <p className="card-text tommy">{index.description}</p>
                 </div>
               </div>
             ))}

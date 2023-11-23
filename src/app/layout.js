@@ -42,7 +42,12 @@ export default function RootLayout({ children }) {
         <ImportBsJS />
       <TopPromotion />
       <Navbar />
-        {children}</body>
+
+      
+        {children}
+        
+        
+      </body>
 
     </html>
   )
