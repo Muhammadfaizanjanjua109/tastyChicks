@@ -13,64 +13,76 @@ import motorcycle from '../../assets/Images/motorcycle.png'
 import waiter from '../../assets/Images/waiter.png'
 import Footer from '@/Components/Footer';
 import Link from 'next/link';
+
+import solovakia from '../../assets/Images/mainPage/solovakia.png'
+import rolls from '../../assets/Images/mainPage/rolls.jpg'
+import salads from '../../assets/Images/mainPage/salads.jpg'
+import chips from '../../assets/Images/mainPage/chips.jpg'
+import CHICKENSPACKS from '../../assets/Images/mainPage/CHICKENSPACKS.jpg'
+import apitizers from '../../assets/Images/mainPage/apitizers.png'
+import chicken from '../../assets/Images/mainPage/chicken.jpg'
+import burger from '../../assets/Images/mainPage/burger.png'
+import Deserts from '../../assets/Images/mainPage/Deserts.jpg'
+import falafelrecipe from '../../assets/Images/mainPage/falafel-recipe.png'
+
 // import { useRouter } from 'next/router';
 function Menu() {
 const cardsData = [
   {
     name:'SOUVLAKIA',
-    price:'From only $9.90',
-    image:Souvlakia_01
+    price:'From only $11.90',
+    image:solovakia
   },
   {
     name:'ROLLS',
     price:'From only $9.90',
-    image:Souvlakia_01
+    image:rolls
   },
 
   {
     name:'DESSERTS',
-    price:'From only $9.90',
-    image:Chips_01
+    price:'From only $8.90',
+    image:Deserts
   },
   {
     name:'HSP S/M/L',
-    price:'From only $9.90',
-    image:ClubSandwhiches_01
+    price:'From only $12.90',
+    image:falafelrecipe
   },
   {
     name:'SALADS  S/M/L',
-    price:'From only $9.90',
-    image:Dessers
+    price:'From only $6.00',
+    image:salads
   },
   {
     name:'BURGERS',
-    price:'From only $9.90',
-    image:Salads
+    price:'From only $10.50',
+    image:burger
   },
   {
     name:'Chips',
-    price:'From only $9.90',
-    image:Skewers_01
+    price:'From only $5.50',
+    image:chips
   },
   {
     name:'CHICKENS (Free range)',
-    price:'From only $9.90',
-    image:TakeHomePacks
+    price:'From only $6.95',
+    image:chicken
   },
   {
     name:'CHICKENS PACKS',
-    price:'From only $9.90',
-    image:Sides_01
+    price:'From only $10.50',
+    image:CHICKENSPACKS
   },
   {
     name:'Appetizers',
-    price:'From only $9.90',
-    image:ValueRange_Image05
+    price:'From only $1.50',
+    image:apitizers
   },
   {
     name:'Loaded Fries',
-    price:'From only $9.90',
-    image:ValueRange_Image05
+    price:'From only $7.90',
+    image:chips
   },
 ]
   return (
@@ -86,7 +98,7 @@ const cardsData = [
     <div className='container-fluid d-flex  flex-wrap justify-content-center '>
 {cardsData.map((index,li)=>{
   return ( < > <div key={li}  className="card me-2 mb-4 shadowCard" style={{width:'22rem'}}>
-  <Image src={index.image}  className="card-img-top w-100 h-100" alt="..." />
+  <Image src={index.image} style={{maxWidth:'100%' , height:'15rem' ,objectFit:'cover'}} className="card-img-top" alt="..." />
   <div className="card-body">
     <h4 className="card-title fw-bold">{index.name}</h4>
     <p>{index.price}</p>

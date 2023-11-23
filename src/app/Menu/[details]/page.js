@@ -5,6 +5,17 @@ import React from 'react'
 import Image from 'next/image'
 import Souvlakia_01 from '../../../assets/Images/foodImages/Souvlakia_01.jpg'
 import motorcycle from '../../../assets/Images/motorcycle.png'
+import solovakia from '../../../assets/Images/mainPage/solovakia.png'
+import rolls from '../../../assets/Images/mainPage/rolls.jpg'
+import salads from '../../../assets/Images/mainPage/salads.jpg'
+import chips from '../../../assets/Images/mainPage/chips.jpg'
+import CHICKENSPACKS from '../../../assets/Images/mainPage/CHICKENSPACKS.jpg'
+import apitizers from '../../../assets/Images/mainPage/apitizers.png'
+import chicken from '../../../assets/Images/mainPage/chicken.jpg'
+import burger from '../../../assets/Images/mainPage/burger.png'
+import Deserts from '../../../assets/Images/mainPage/Deserts.jpg'
+import falafelrecipe from '../../../assets/Images/mainPage/falafel-recipe.png'
+
 import waiter from '../../../assets/Images/waiter.png'
 import Footer from '@/Components/Footer'
 import { useParams } from 'next/navigation'
@@ -14,6 +25,8 @@ let {details}=useParams()
     const cardsData = [
         {
             name: 'SOUVLAKIA',
+            image:solovakia,
+            description:"Savor the authentic taste of Greece with our tantalizing Souvlakia! Crafted with tender, marinated meat, fresh and crisp veggies, and wrapped in warm pita bread, each bite is an ode to Mediterranean flavors. Indulge in this classic delight, perfectly seasoned and served with a choice of delectable sauces. It's a culinary journey to the heart of Greece, offering a mouthwatering experience in every bite.",
             child: [
                 { name: 'Chicken Souvlak', price: '$14.50' },
                 { name: 'Falafel Wrap', price: '$15.50' },
@@ -25,6 +38,8 @@ let {details}=useParams()
 
         {
             name: 'ROLLS',
+            image:rolls,
+            description:'Discover our delectable Rolls selection crafted with premium ingredients and flavors to satisfy your cravings. From the rich essence of the Egg & Bacon Roll to the savory goodness of the Steak & Onion Roll, each bite promises a delightful burst of taste. Treat yourself to these scrumptious handheld delights today!',
             child: [
                 { name: 'Egg & Bacon Roll', price: '$9.90' },
                 { name: 'Chicken Delight Roll', price: '$10.90' },
@@ -35,6 +50,8 @@ let {details}=useParams()
         },
         {
             name: 'DESSERTS',
+            image:Deserts,
+            description:'Indulge in our divine Desserts, an irresistible array of sweet sensations. Delight your taste buds with our heavenly offerings, from traditional Baklava with layers of honey-soaked pastry to our rich and creamy Greek Yogurt Parfait. Each dessert is a blissful finale to your meal, offering a symphony of flavors that will leave you craving for more',
             child: [
                 { name: 'Chocolate Mousse', price: '$9.50' },
                 { name: 'Sticky Date Pudding', price: '$9.50' },
@@ -45,6 +62,8 @@ let {details}=useParams()
         },
         {
             name: 'HSP S/M/L',
+            image:falafelrecipe,
+            description:"Savor our delectable Halal Snack Pack selections, where succulent meats meet a fusion of flavors. Indulge in the tender Lamb or choose from Chicken, Mix, Veggie, or Falafel options, all served in various sizes to suit your appetite. Delight in our Cheese Burger HSP, featuring juicy patties, or relish the Schnitz HSP for a crispy, savory experience. Each size is crafted to perfection, ensuring a fulfilling and satisfying meal that's bursting with taste.",
             child: [
                 { name: 'Lamb S', price: '$13.90' },
                 { name: 'Lamb M', price: '$16.90' },
@@ -64,6 +83,8 @@ let {details}=useParams()
         },
         {
             name: 'SALADS  S/M/L',
+        image:salads,
+        description:"Discover our fresh and vibrant Salad options available in various sizes. Indulge in the delightful Greek Salad, a medley of crisp vegetables and tangy feta, or relish the creamy Coleslaw for a classic accompaniment to your meal. Enjoy the zesty Tabouli packed with nutritious ingredients or opt for the Roast Mixed Veggies, offering a flavorful blend of roasted goodness. Don't miss our Scalloped Potatoes for a comforting and savory addition to your dining experience. Each size offers a generous portion of wholesome salads to complement your dish perfectly.",
             child: [
                 { name: 'Greek S', price: '$6' },
                 { name: 'Greek M', price: '$8' },
@@ -86,6 +107,8 @@ let {details}=useParams()
 
         {
             name: 'BURGERS',
+            image:burger,
+            description:"Our burger selection offers a diverse range to satisfy every craving. Dive into the Aussie Burger, a savory delight featuring premium ingredients. Indulge in the flavorful Chicken Delight Burger or savor the exotic taste of the Don Burger. Enjoy the tropical fusion of the Hawaiian Burger or relish the simplicity of the Plain & Simple option. Try our Steak Sandwich, a hearty meal packed with deliciousness. For those seeking a vegetarian delight, our Veggie Burger is a must-try. Explore our varied burger options, each crafted with unique flavors to tantalize your taste buds.",
             child: [
                 { name: 'AussieBurger', price: '$16.90' },
                 { name: 'Chicken Delight Burger', price: '$15.50' },
@@ -107,6 +130,8 @@ let {details}=useParams()
         },
         {
             name: 'Chips',
+            image:chips,    
+            description:"Indulge in our crispy and flavorful fries, a perfect side to complement your meal. Available in various sizes – from the snack-friendly 'Small' to the generously portioned 'Family' – our golden fries promise a delightful crunch with every bite. Treat yourself to the perfect accompaniment for your cravings.",
             child: [
                 { name: 'Small', price: '$5.50' },
                 { name: 'Medium', price: '$8.50' },
@@ -118,6 +143,8 @@ let {details}=useParams()
         },
         {
             name: 'CHICKENS (Free range)',
+            image:chicken,
+            description:"Savor our tender and succulent chicken offerings, available in different portions to suit your appetite. Whether you prefer the hearty 'Whole Chicken,' the satisfying 'Half Chicken,' or the smaller 'Quarter Chicken,' our flavorful and perfectly cooked chicken options promise a delightful culinary experience. Taste the juicy tenderness in every bite.",
             child: [
                 { name: 'Half Chicken', price: '$9.95' },
                 { name: 'Quarter Chicken', price: '$6.95' },
@@ -128,6 +155,8 @@ let {details}=useParams()
         },
         {
             name: 'CHICKENS PACKS',
+            image:CHICKENSPACKS,
+            description:"Indulge in our delectable chicken packs, offering various combinations to satisfy your cravings. Whether it's the classic '1/4 Chicken & Chips' or the refreshing '1/4 Chicken & Salad, ' we cater to diverse preferences. Try our wholesome 'Family Meal Deal' or the extensive 'Family Mega Deal', perfect for sharing and creating cherished moments with loved ones. Discover the perfect chicken pack to suit your taste and appetite.",
             child: [
                 { name: '1/4 Chicken & Chips', price: '$10.50' },
                 { name: '1/4 Chicken & Salad', price: '$10.95' },
@@ -143,6 +172,8 @@ let {details}=useParams()
         },
         {
             name: 'Appetizers',
+            image:apitizers,
+            description:"Savor our appetizing range of starters! Enjoy the crispy delight of our 'Cheesy Croquette' or try the savory 'Chicken Nuggets' available in sets of 6 or 12. Indulge in our vegetarian options such as 'Potato Cake' or relish the flavorful 'Roast Potato.' Dive into our delicious 'Sweet Chilli Tender' or the tantalizing 'Tasty Wing' for a burst of flavors that set the perfect tone for your meal.",
             child: [
                 { name: "Cheesy Croquette", price: "$3.50" },
                 { name: "2* Croquettes", price: "$5.00" },
@@ -161,6 +192,8 @@ let {details}=useParams()
         },
         {
             name: 'Loaded Fries',
+            image:chips,
+            description:"Experience a flavor explosion with our Loaded Fries! Available in sizes to suit your craving – opt for 'Small' for a delightful snack, 'Large' to satisfy your hunger, or go for the 'Monster' size for an indulgent feast. Topped with tantalizing ingredients, it's a taste sensation you won't want to miss.",
             child: [
                 { name: "Small", price: "$7.90" },
                 { name: "Large", price: "$11.90" },
@@ -189,16 +222,16 @@ const selectedCategory = details; // Assuming `a.details` contains the selected 
             <div className='container p-5'>
                 <div className='row'>
                     <div className='col-lg-6 col-md-6 col-sm-12'>
-                        <Image src={Souvlakia_01} alt='10' style={{ borderRadius: ' 5px 5px 5px 5px' }} />
+                        <Image src={categoryDetails?.image} alt='10'  style={{ borderRadius: ' 5px 5px 5px 5px'  ,maxHeight:'25rem' , maxWidth:'100%' }} />
                     </div>
                     <div className='col-lg-6 col-md-6 col-sm-12'>
                         <h2 className='fw-bold mb-3'>
                             {categoryDetails?.name}</h2>
 
-                        <p>Experience the taste of Greece with our tender and flavorful Souvlakia! Made with marinated meat, fresh veggies, and aromatic herbs. Served with warm pita bread and your choice of sauce, they’re a satisfying and delicious meal for any time of day.</p>
+                        <p>{categoryDetails?.description}</p>
 
 
-                        <div>
+                        {/* <div>
                             <div className=" d-flex justify-content-between  mb-3">
                                 <span className="tommy color-orange fw-bold" style={{ maxWidth: '80%', fontSize: '18px' }}>
                                     Make it a Combo						</span>
@@ -232,7 +265,7 @@ const selectedCategory = details; // Assuming `a.details` contains the selected 
                                 <span className="elementor-price-list-separator align-self-center"></span>
                                 <span className=" tommy fw-bold color-orange">+ $5.90</span>
                             </div>
-                        </div>
+                        </div> */}
 
 
 
